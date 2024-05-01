@@ -1,0 +1,73 @@
+/* styles.css */  
+  
+/* 重置默认样式 */  
+* {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+}  
+  
+body {  
+    font-family: Arial, sans-serif;  
+    color: #333;  
+    line-height: 1.6;  
+}  
+  
+/* 头部样式 */  
+header {  
+    background-color: #2c3e50;  
+    color: #fff;  
+    padding: 20px;  
+    text-align: center;  
+}  
+  
+header h1 {  
+    font-size: 36px;  
+}  
+  
+header nav ul {  
+    list-style-type: none;  
+    display: flex;  
+    justify-content: center;  
+    margin-top: 10px;  
+}  
+  
+header nav ul li {  
+    margin: 0 10px;  
+}  
+  
+header nav ul li a {  
+    color: #fff;  
+    text-decoration: none;  
+    padding: 5px 10px;  
+    border-radius: 5px;  
+    transition: all 0.3s ease;  
+}  
+  
+header nav ul li a:hover {  
+    background-color: #1abc9c;  
+}  
+  
+/* 主要内容样式 */  
+main {  
+    padding: 20px;  
+}  
+  
+section {  
+    margin-bottom: 20px;  
+}  
+  
+section h2 {  
+    font-size: 24px;  
+    margin-bottom: 10px;  
+}  
+  
+/* 底部样式 */  
+footer {  
+    background-color: #2c3e50;  
+    color: #fff;  
+    padding: 20px;  
+    text-align: center;  
+}  
+  
+/* 其他样式可以根据需要添加 */
